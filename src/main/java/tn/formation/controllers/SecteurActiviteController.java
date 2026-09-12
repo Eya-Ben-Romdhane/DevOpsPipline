@@ -17,7 +17,7 @@ public class SecteurActiviteController {
     @Autowired
     ISecteurActiviteService secteurActiviteService;
 
-    // http://localhost:8089/SpringMVC/secteurActivite/retrieve-all-secteurActivite
+
     @GetMapping("/retrieve-all-secteurActivite")
     @ResponseBody
     public List<SecteurActivite> getSecteurActivite() {
